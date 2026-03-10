@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: coredns-vnf-service
+  namespace: coredns-vnf
+spec:
+  selector:
+    app: coredns-vnf
+  ports:
+  - name: dns-udp
+    port: 53
+    protocol: UDP
+  - name: dns-tcp
+    port: 53
+    protocol: TCP
+  - name: metrics
+    port: 9153
+    protocol: TCP
+  type: ClusterIP

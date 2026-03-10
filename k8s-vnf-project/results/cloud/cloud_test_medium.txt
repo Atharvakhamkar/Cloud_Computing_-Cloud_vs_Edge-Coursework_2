@@ -1,0 +1,3 @@
+DNS Performance Testing Tool - Version 2.9.0
+Queries sent: 30000 | Completed: 30000 (100%) | Lost: 0 (0%)
+QPS: 499.998975 | Avg Latency: 0.000176s | Min: 0.000083s | Max: 0.040887s | StdDev: 0.000725s
